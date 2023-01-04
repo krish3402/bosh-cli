@@ -5,6 +5,8 @@ echo -e '\n' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Home
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew doctor
 brew --help
+brew update
+brew upgrade
 brew install gcc
 brew install cloudfoundry/tap/bosh-cli
 bosh -v
