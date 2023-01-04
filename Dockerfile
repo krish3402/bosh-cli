@@ -1,2 +1,3 @@
 FROM ubuntu:20.04
-RUN
+COPY install.sh .
+RUN install.sh
